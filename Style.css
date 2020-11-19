@@ -1,0 +1,186 @@
+html{
+    margin: 0;
+    padding: 0;
+    --br: 7px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto 0 auto;
+    max-width: 1920px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    max-width: 1900px;
+}
+
+h1{
+    margin-block-end: 0;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+    color: #32BBA4;
+}
+
+.button_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 38px;
+    border-radius: var(--br);
+    color: white;
+    background-color: #410FF8;
+}
+
+.button_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    padding: 3px 0;
+    border: 1px solid #0B48A8;
+    border-radius: var(--br);
+    color: #410FF8;
+    background-color: white;
+    
+}
+
+.button_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    padding: 3px 0;
+    border-radius: var(--br);
+    color: white;
+    background-color: #410FF8;
+}
+
+/*header*/
+header{
+    height: 430px;
+    background-image: url(./images/Mask\ Group\ 1.png);
+    background-size: contain;
+    background-color: #F9FFF2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.header_top_right_text{
+    width: 385px;
+}
+
+.header_top_right_text ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_a_color{
+    color: #8E8E8E;
+}
+
+/*header_del2*/
+.header_main_text{
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+}
+
+/*section1*/
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.section1_box{
+    height: 536px;
+    width: 364px;
+}
+
+.section1_box li{
+    height: 40px;
+}
+
+.section1_box li::before{
+    content: url(./images/checkmark-purple.png);
+    position: relative;
+    top: 37px;
+    left: -40px;
+    padding: 2px 6px;
+    background-color: rgb(110, 110, 168);
+    border-radius: 50%;
+}
+
+.box_white1{
+    border: 1px solid lightgrey;
+}
+
+.box_white2{
+    border: 1px solid lightgrey;
+}
+
+.box_blue{
+    color: white;
+    background-color: #410FF8;
+    box-shadow: 5px 5px 110px 2px rgba(57, 109, 252, 0.5);
+}
+
+.box_blue li::before{
+    content: url(./images/checkmark-purple.png);
+    position: relative;
+    background-color: white;
+}
+
+.section1_box_info ul{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.section1_box_mindre_text{
+    font-size: 14px;
+    color: #A1A1A1;
+}

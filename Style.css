@@ -5,6 +5,11 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 75%;
     margin: 0 auto 0 auto;
@@ -139,6 +144,7 @@ nav{
 .section1_box{
     height: 536px;
     width: 364px;
+    border-radius: 3px;
 }
 
 .section1_box li{
@@ -151,7 +157,7 @@ nav{
     top: 37px;
     left: -40px;
     padding: 2px 6px;
-    background-color: rgb(110, 110, 168);
+    background-color: rgb(65, 15, 248, 32%);
     border-radius: 50%;
 }
 

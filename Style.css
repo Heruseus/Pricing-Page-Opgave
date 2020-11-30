@@ -178,6 +178,10 @@ nav{
     background-color: white;
 }
 
+.section1_box_info{
+    height: 55%;
+}
+
 .section1_box_info ul{
     margin-block-end: 0;
     margin-block-start: 0;

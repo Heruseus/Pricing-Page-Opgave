@@ -73,7 +73,7 @@ span{
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    width: 300px;
+    width: 290px;
     height: 50px;
     padding: 3px 0;
     border: 1px solid #0B48A8;
@@ -89,7 +89,7 @@ span{
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    width: 300px;
+    width: 290px;
     height: 50px;
     padding: 3px 0;
     border-radius: var(--br);

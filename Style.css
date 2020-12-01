@@ -154,12 +154,17 @@ nav{
 
 .section1_box li::before{
     content: url(./images/checkmark-purple.png);
-    position: relative;
-    top: 37px;
-    left: -40px;
     padding: 2px 6px;
     background-color: rgb(65, 15, 248, 32%);
     border-radius: 50%;
+}
+
+.section1_box_li_text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 40px;
+    padding-inline-start: 0;
 }
 
 .box_white1{
@@ -176,14 +181,6 @@ nav{
     content: url(./images/checkmark-purple.png);
     position: relative;
     background-color: white;
-}
-
-.section1_box_info{
-    height: 55%;
-}
-
-.section1_box_li_text{
-    height: 100%;
 }
 
 .section1_box_info ul{

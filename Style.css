@@ -67,6 +67,16 @@ span{
     background-color: #410FF8;
 }
 
+.button_1:hover{
+    color: #410FF8;
+    background-color: white;
+}
+
+.button_1:active{
+    color: white;
+    background-color: #410FF8;
+}
+
 .button_2{
     display: flex;
     justify-content: center;
@@ -80,7 +90,16 @@ span{
     border-radius: var(--br);
     color: #410FF8;
     background-color: white;
-    
+}
+
+.button_2:hover{
+    color: black;
+    background-color: darkred;
+}
+
+.button_2:active{
+    color: #410FF8;
+    background-color: white;
 }
 
 .button_3{
@@ -93,6 +112,16 @@ span{
     height: 50px;
     padding: 3px 0;
     border-radius: var(--br);
+    color: white;
+    background-color: #410FF8;
+}
+
+.button_3:hover{
+    color: darkred;
+    background-color: black;
+}
+
+.button_3:active{
     color: white;
     background-color: #410FF8;
 }
